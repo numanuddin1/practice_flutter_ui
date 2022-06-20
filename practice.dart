@@ -193,11 +193,11 @@ class ContentWidget extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        vertical: 2.0, horizontal: 8),
+                        vertical: 3.0, horizontal: 8),
                     child: Row(
                       children: [
                         Padding(padding: EdgeInsets.only(left: 9)),
-                        Text('Explore'),
+                        Text('Explore',  style: TextStyle(fontSize: 12),),
                         Icon(Icons.arrow_circle_right_outlined)
                       ],
                     ),
@@ -221,11 +221,11 @@ class ContentWidget extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        vertical: 3.0, horizontal: 7),
+                        vertical: 4.0, horizontal: 7),
                     child: Row(
                       children: [
                         Padding(padding: EdgeInsets.only(left: 9)),
-                        Text('Edit Profile'),
+                        Text('Edit Profile', style: TextStyle(fontSize: 12),),
                         Icon(CupertinoIcons.person)
                       ],
                     ),
@@ -238,11 +238,11 @@ class ContentWidget extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        vertical: 3.0, horizontal: 7),
+                        vertical: 4.0, horizontal: 7),
                     child: Row(
                       children: [
                         Padding(padding: EdgeInsets.only(left: 9)),
-                        Text('Settings'),
+                        Text('Settings', style: TextStyle(fontSize: 12),),
                         Icon(CupertinoIcons.settings)
                       ],
                     ),
@@ -255,11 +255,11 @@ class ContentWidget extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        vertical: 3.0, horizontal: 7),
+                        vertical: 4.0, horizontal: 7),
                     child: Row(
                       children: [
                         Padding(padding: EdgeInsets.only(left: 9)),
-                        Text('Share'),
+                        Text('Share',  style: TextStyle(fontSize: 12),),
                         Icon(Icons.share)
                       ],
                     ),
